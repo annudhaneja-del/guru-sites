@@ -1,0 +1,284 @@
+<!DOCTYPE html><html class="dark" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>My Uploads | Gurucraftpro</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "tertiary-fixed-dim": "#ffafd3",
+                        "on-secondary-fixed-variant": "#6900b3",
+                        "primary-container": "#8083ff",
+                        "on-tertiary-fixed": "#3d0026",
+                        "on-surface-variant": "#c7c4d7",
+                        "on-primary-fixed": "#07006c",
+                        "on-primary-fixed-variant": "#2f2ebe",
+                        "surface-container": "#1f1f1f",
+                        "tertiary-container": "#e364a7",
+                        "surface-container-high": "#2a2a2a",
+                        "on-primary-container": "#0d0096",
+                        "background": "#131313",
+                        "inverse-surface": "#e2e2e2",
+                        "primary": "#c0c1ff",
+                        "tertiary": "#ffafd3",
+                        "surface-variant": "#353535",
+                        "on-secondary-fixed": "#2c0051",
+                        "on-secondary-container": "#d6a9ff",
+                        "on-secondary": "#490080",
+                        "surface-container-lowest": "#0e0e0e",
+                        "on-tertiary-fixed-variant": "#85145a",
+                        "secondary-fixed-dim": "#ddb7ff",
+                        "primary-fixed-dim": "#c0c1ff",
+                        "surface-tint": "#c0c1ff",
+                        "secondary-fixed": "#f0dbff",
+                        "error-container": "#93000a",
+                        "surface": "#131313",
+                        "secondary": "#ddb7ff",
+                        "on-surface": "#e2e2e2",
+                        "surface-container-low": "#1b1b1b",
+                        "outline-variant": "#464554",
+                        "on-primary": "#1000a9",
+                        "on-error-container": "#ffdad6",
+                        "inverse-on-surface": "#303030",
+                        "surface-dim": "#131313",
+                        "inverse-primary": "#494bd6",
+                        "surface-bright": "#393939",
+                        "error": "#ffb4ab",
+                        "on-error": "#690005",
+                        "tertiary-fixed": "#ffd8e7",
+                        "secondary-container": "#6f00be",
+                        "on-background": "#e2e2e2",
+                        "on-tertiary-container": "#560038",
+                        "surface-container-highest": "#353535",
+                        "primary-fixed": "#e1e0ff",
+                        "on-tertiary": "#620040",
+                        "outline": "#908fa0"
+                    },
+                    fontFamily: {
+                        "headline": ["Plus Jakarta Sans"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(53, 53, 53, 0.4);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(70, 69, 84, 0.15);
+        }
+        .tonal-layering {
+            background: linear-gradient(180deg, rgba(19, 19, 19, 0) 0%, rgba(27, 27, 27, 1) 100%);
+        }
+        body {
+            background-color: #131313;
+            color: #e2e2e2;
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="min-h-screen pb-24">
+<!-- TopAppBar Shared Component -->
+<header class="fixed top-0 w-full z-50 bg-[#131313]/40 backdrop-blur-3xl shadow-[0_20px_40px_rgba(0,0,0,0.4)]">
+<div class="flex justify-between items-center px-6 h-16 w-full max-w-7xl mx-auto">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full overflow-hidden border border-primary/20 bg-surface-container">
+<img alt="User Profile Avatar" class="w-full h-full object-cover" data-alt="close-up portrait of a digital artist with neon rim lighting and creative attire" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiDlQppQMXC5OnnI4YwttGS3YZgapwt7rRwWWAXUDQ90hu1DozPJYq2X3vJJyhL7_EnJqT2eyB_V4998MNHTHsDEs0iT5GRNQ_7VfO99_1e1WWNuW8Y8YmJxn6UCfduJA0Vr7ud9KJKUy-Xh3DBVUBCx0kJ4XKhQ9-p_GMxSRt_BPVNwLuMyIZb-pp51DVnL8pto9oZbL0b8rAqN9Li20nmQMQkCmEqsiYe_8JlYKqfLefVpmGN7l8e9gf0voAB1c652r2O1uXMw" style="">
+</div>
+<h1 class="text-xl font-bold bg-gradient-to-tr from-[#c0c1ff] to-[#8083ff] bg-clip-text text-transparent font-['Plus_Jakarta_Sans'] tracking-tight" style="">
+                    Gurucraftpro
+                </h1>
+</div>
+<button class="text-[#c0c1ff] p-2 rounded-xl hover:bg-[#353535]/50 transition-all duration-300 scale-95 active:scale-90" style="">
+<span class="material-symbols-outlined" style="">search</span>
+</button>
+</div>
+</header>
+<main class="pt-24 px-6 max-w-7xl mx-auto">
+<!-- User Profile Summary (Asymmetric Editorial Layout) -->
+<section class="mb-12 flex flex-col md:flex-row gap-8 items-start md:items-end">
+<div class="relative group">
+<div class="w-24 h-24 md:w-32 md:h-32 rounded-2xl overflow-hidden shadow-2xl transition-transform duration-500 group-hover:scale-105">
+<img alt="Alex Loomis" class="w-full h-full object-cover" data-alt="vibrant abstract portrait of an artist in a high-tech studio environment with soft purple and teal ambient light" src="https://res.cloudinary.com/dyr8guxli/image/upload/v1774934328/shared_image_uu3y10.jpg" style="">
+</div>
+<div class="absolute -bottom-2 -right-2 bg-primary text-on-primary p-1.5 rounded-lg shadow-lg">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: &quot;FILL&quot; 1;">verified</span>
+</div>
+</div>
+<div class="flex-1 space-y-4">
+<div>
+<h2 class="text-3xl font-['Plus_Jakarta_Sans'] font-extrabold tracking-tight text-on-surface" style="">GuruCraftpro</h2>
+<p class="text-on-surface-variant font-medium" style="">Digital Alchemist &amp; Senior Curator</p>
+</div>
+<div class="flex gap-8 items-center py-2">
+<div class="flex flex-col">
+<span class="text-2xl font-bold text-primary font-['Plus_Jakarta_Sans']" style="">12</span>
+<span class="text-[10px] uppercase tracking-[0.1em] text-on-surface-variant/70" style="">Artworks Shared</span>
+</div>
+<div class="w-px h-8 bg-outline-variant/20"></div>
+<div class="flex flex-col">
+<span class="text-2xl font-bold text-primary font-['Plus_Jakarta_Sans']" style="">452</span>
+<span class="text-[10px] uppercase tracking-[0.1em] text-on-surface-variant/70" style="">Total Blessings</span>
+</div>
+</div>
+</div>
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary-container font-semibold px-6 py-3 rounded-xl flex items-center gap-2 shadow-[0_10px_25px_rgba(192,193,255,0.2)] hover:scale-105 active:scale-95 transition-all duration-300 group" style="">
+<span class="material-symbols-outlined group-hover:rotate-90 transition-transform" style="">add_circle</span>
+                Upload New Creation
+            </button>
+</section>
+<!-- Tabs / Filters -->
+<div class="flex items-center gap-2 mb-8 overflow-x-auto pb-2 no-scrollbar">
+<button class="px-5 py-2 rounded-full bg-primary-container text-on-primary-container text-sm font-semibold transition-all" style="">All</button>
+<button class="px-5 py-2 rounded-full glass-card text-on-surface-variant text-sm font-medium hover:text-primary transition-all" style="">Published</button>
+<button class="px-5 py-2 rounded-full glass-card text-on-surface-variant text-sm font-medium hover:text-primary transition-all" style="">Under Review</button>
+<button class="px-5 py-2 rounded-full glass-card text-on-surface-variant text-sm font-medium hover:text-primary transition-all" style="">Drafts</button>
+</div>
+<!-- Uploads Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 1 -->
+<div class="glass-card rounded-2xl overflow-hidden group hover:shadow-[0_20px_40px_rgba(0,0,0,0.5)] transition-all duration-500">
+<div class="relative h-56 overflow-hidden">
+<img alt="Nebula Dreams" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="cinematic digital painting of a cosmic nebula swirling with deep purples and vibrant pinks, ethereal lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBL2ILpItIkUxmldjR8bKaebIgzxOFPadR9tutg_DPSH5mE3Jx1EphHrzPnpttqaq5ObIMFb65sC_3_zhaKZAMhhA_wp-1geow0qngKtZlDNAuBhkYLa9Pv6NkghtMAeiTgNosIOpi5v7bDcGTph9btxwzBQsViPlO9Sm_RravYwEVaKdGW-dTgzMb14EZkWXKqOIiz3sEgMG398Pdpjj13LIOCR-fEElRwoNzu6Z1rjlnZqRZyJOr_nI0VLfQ0UKO1Xuw1tTcxog" style="">
+<div class="absolute top-4 left-4 bg-[#131313]/60 backdrop-blur-md px-3 py-1 rounded-full border border-outline-variant/20">
+<span class="text-[10px] font-bold text-green-400 uppercase tracking-wider" style="">Published</span>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-[#131313] to-transparent opacity-60"></div>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-['Plus_Jakarta_Sans'] font-bold text-lg text-on-surface" style="">Nebula Dreams</h3>
+<p class="text-xs text-on-surface-variant" style="">Uploaded Oct 12, 2023</p>
+</div>
+<div class="flex gap-2">
+<button class="w-9 h-9 flex items-center justify-center rounded-lg glass-card hover:bg-primary/20 text-on-surface transition-colors" style="">
+<span class="material-symbols-outlined text-lg" style="">edit</span>
+</button>
+<button class="w-9 h-9 flex items-center justify-center rounded-lg glass-card hover:bg-error/20 text-error transition-colors" style="">
+<span class="material-symbols-outlined text-lg" style="">delete</span>
+</button>
+</div>
+</div>
+<div class="flex items-center gap-4 pt-4 border-t border-outline-variant/10">
+<div class="flex items-center gap-1.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-sm" style="">visibility</span>
+<span class="text-xs font-medium" style="">1.2k</span>
+</div>
+<div class="flex items-center gap-1.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: &quot;FILL&quot; 1;">auto_awesome</span>
+<span class="text-xs font-medium" style="">84</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="glass-card rounded-2xl overflow-hidden group hover:shadow-[0_20px_40px_rgba(0,0,0,0.5)] transition-all duration-500">
+<div class="relative h-56 overflow-hidden">
+<img alt="Ethereal Flow" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="minimalist 3D render of fluid metallic gold shapes floating in a dark void with soft studio lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkOTaCwFI0dbB6psW6HXvLMqolXkGlBIzk-IO1yaPisRy4vprv55v-Uacp19uSL5wk0y6WFM9zBYovvb90OS7lhBuXBKKOFn89WMfkJXNTgJXgWTiwPPkecRJXId4YeHx3js9NM6hlu2utuItBbBF0YeFvG2NGblOesoU0yedphTf9lpklK8iIKDC9U6Jaohfmif4tTbZgHG18vrThAlZv58O3nxGVcEMj0L-JFOCPWisDBmXOBqrE6Wt85pHdDnRY1u1FrJJfdw" style="">
+<div class="absolute top-4 left-4 bg-[#131313]/60 backdrop-blur-md px-3 py-1 rounded-full border border-outline-variant/20">
+<span class="text-[10px] font-bold text-amber-400 uppercase tracking-wider" style="">Under Review</span>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-[#131313] to-transparent opacity-60"></div>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-['Plus_Jakarta_Sans'] font-bold text-lg text-on-surface" style="">Ethereal Flow</h3>
+<p class="text-xs text-on-surface-variant" style="">Uploaded Oct 20, 2023</p>
+</div>
+<div class="flex gap-2">
+<button class="w-9 h-9 flex items-center justify-center rounded-lg glass-card hover:bg-primary/20 text-on-surface transition-colors" style="">
+<span class="material-symbols-outlined text-lg" style="">edit</span>
+</button>
+<button class="w-9 h-9 flex items-center justify-center rounded-lg glass-card hover:bg-error/20 text-error transition-colors" style="">
+<span class="material-symbols-outlined text-lg" style="">delete</span>
+</button>
+</div>
+</div>
+<div class="flex items-center gap-4 pt-4 border-t border-outline-variant/10">
+<div class="flex items-center gap-1.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-sm" style="">visibility</span>
+<span class="text-xs font-medium" style="">342</span>
+</div>
+<div class="flex items-center gap-1.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: &quot;FILL&quot; 1;">auto_awesome</span>
+<span class="text-xs font-medium" style="">--</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="glass-card rounded-2xl overflow-hidden group hover:shadow-[0_20px_40px_rgba(0,0,0,0.5)] transition-all duration-500">
+<div class="relative h-56 overflow-hidden">
+<img alt="Cyber Zen" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="cyberpunk landscape featuring a traditional zen garden in a high-tech futuristic city at night with neon signage" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDn4LptcEJO73BtovTc7f7pKkCphnvxCJGaho5h73xxynWM0BIfMqyNLg4ukONSuqsTm8JjnKQaV24R4wM9wEtYdmcwJjnjzGgWLO25zTCpWdmRapMF6TsSFJRkIkp7aDC2Bu5G0Eor2cuQqM3Q1czBZiEWmOK37zX4eV6Y10zbDwM82hw3AGlopt1KquPKq7X96AvcCC1XijXH-9iwt3UXsKH1CariMUACwIqYCgSJjdycC3TzP6SM6Sv0OAH7q2-Xp2WPa8wiqw" style="">
+<div class="absolute top-4 left-4 bg-[#131313]/60 backdrop-blur-md px-3 py-1 rounded-full border border-outline-variant/20">
+<span class="text-[10px] font-bold text-on-surface-variant uppercase tracking-wider" style="">Draft</span>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-[#131313] to-transparent opacity-60"></div>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-['Plus_Jakarta_Sans'] font-bold text-lg text-on-surface" style="">Cyber Zen</h3>
+<p class="text-xs text-on-surface-variant" style="">Saved 2 hours ago</p>
+</div>
+<div class="flex gap-2">
+<button class="w-9 h-9 flex items-center justify-center rounded-lg glass-card hover:bg-primary/20 text-on-surface transition-colors" style="">
+<span class="material-symbols-outlined text-lg" style="">edit</span>
+</button>
+<button class="w-9 h-9 flex items-center justify-center rounded-lg glass-card hover:bg-error/20 text-error transition-colors" style="">
+<span class="material-symbols-outlined text-lg" style="">delete</span>
+</button>
+</div>
+</div>
+<div class="flex items-center gap-4 pt-4 border-t border-outline-variant/10">
+<div class="flex items-center gap-1.5 text-on-surface-variant/40 italic">
+<span class="text-xs font-medium" style="">Pending publication...</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- BottomNavBar Shared Component -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pb-6 pt-2 bg-[#131313]/40 backdrop-blur-3xl z-50 rounded-t-2xl shadow-[0_-10px_30px_rgba(0,0,0,0.5)] border-t border-[#464554]/15">
+<a class="flex flex-col items-center justify-center text-[#e2e2e2]/60 hover:text-[#c0c1ff] transition-colors" href="#" style="">
+<span class="material-symbols-outlined mb-1" style="">explore</span>
+<span class="font-['Inter'] text-[10px] uppercase tracking-[0.1em]" style="">Explore</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#e2e2e2]/60 hover:text-[#c0c1ff] transition-colors" href="#" style="">
+<span class="material-symbols-outlined mb-1" style="">palette</span>
+<span class="font-['Inter'] text-[10px] uppercase tracking-[0.1em]" style="">Gallery</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#e2e2e2]/60 hover:text-[#c0c1ff] transition-colors scale-110 duration-200" href="#" style="">
+<span class="material-symbols-outlined mb-1" style="">add_circle</span>
+<span class="font-['Inter'] text-[10px] uppercase tracking-[0.1em]" style="">Upload</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#e2e2e2]/60 hover:text-[#c0c1ff] transition-colors" href="#" style="">
+<span class="material-symbols-outlined mb-1" style="">analytics</span>
+<span class="font-['Inter'] text-[10px] uppercase tracking-[0.1em]" style="">Stats</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-gradient-to-br from-[#c0c1ff]/20 to-[#8083ff]/20 text-[#c0c1ff] rounded-xl px-3 py-1 scale-110 duration-200" href="#" style="">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: &quot;FILL&quot; 1;">person</span>
+<span class="font-['Inter'] text-[10px] uppercase tracking-[0.1em]" style="">Profile</span>
+</a>
+</nav>
+</body></html>
